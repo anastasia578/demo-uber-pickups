@@ -5,12 +5,11 @@ A [Streamlit](https://streamlit.io) demo [written in pure Python](https://github
 
 ![Final App Animation](https://github.com/streamlit/demo-uber-nyc-pickups/raw/main/uber_demo.png "Uber demo")
 
-## Run this demo locally
+## Run this demo locally from the demo-uber-pickups/ directory
 ```
 pip install --upgrade streamlit
-streamlit run https://raw.githubusercontent.com/streamlit/demo-uber-nyc-pickups/main/streamlit_app.py
+docker build -t streamlit .
+docker run -p 8501:8501 streamlit
+
+You can now view the app at http://localhost:8501 or http://0.0.0.0:8501
 ```
-
-### Questions? Comments?
-
-Please ask in the [Streamlit community](https://discuss.streamlit.io).
