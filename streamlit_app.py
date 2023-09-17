@@ -32,7 +32,7 @@ st.set_page_config(layout="wide", page_title="NYC Ridesharing Demo", page_icon="
 def load_data():
     path = "uber-raw-data-sep14.csv.gz"
     if not os.path.isfile(path):
-        path = f"https://github.com/streamlit/demo-uber-nyc-pickups/raw/main/{path}"
+        path = f"https://github.com/anastasia578/demo-uber-pickups/raw/main/{path}"
         
     data = pd.read_csv(
         path,
