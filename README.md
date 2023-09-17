@@ -5,6 +5,14 @@ A [Streamlit](https://streamlit.io) demo based on [this github repo](https://git
 
 ![Final App Animation](https://github.com/streamlit/demo-uber-nyc-pickups/raw/main/uber_demo.png "Uber demo")
 
+
+## Prerequisites
+Read the introduction and follow the prerequisites at [this link](https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker) in order to successfully install the Docker Engine on your machine.
+
+Verify that Docker Engine is installed correctly by running the hello-world Docker image:
+
+sudo docker run hello-world
+
 ## Run this demo locally from the demo-uber-pickups/ directory
 ```
 pip install --upgrade streamlit
